@@ -33,6 +33,7 @@ print("Total no of words in file is",wordcount)
 fp.close()
 ```
 ### OUTPUT:
-![output](https://github.com/Hemanath08/Command--line-arguments-to-count-word/assets/151807176/ecea3b46-d0c3-4869-88fe-5657d5e5abdd)
+![Screenshot 2024-05-16 143356](https://github.com/Hemanath08/Command--line-arguments-to-count-word/assets/151807176/235d338d-50ff-4363-80d1-e799461e0d0c)
+
 ## RESULT:
 Thus the program is written to find the word count from the contents of a file using command line arguments.
