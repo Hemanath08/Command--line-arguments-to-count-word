@@ -22,8 +22,8 @@ Close the file pointer and end the program
 ## PROGRAM:
 ```
 Command--line-arguments-to-count-word
-#Developed by: R.Sabarinath
-#Register no: 212223100048
+#Developed by: K.Hemanath
+#Register no: 212223100012
  import sys
  fp=open(sys.argv[1])
  wordcount=0
