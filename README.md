@@ -22,16 +22,16 @@ Close the file pointer and end the program
 ## PROGRAM:
 ```
 Command--line-arguments-to-count-word
-Developed by: K.HEMANATH
-Register no: 212223100012
-fp=open("count.txt","r")
-wordcount=0
-for i in fp:
-    words=i.split()
-    wordcount+=len(words)
-print("Total no of words in file is",wordcount)
-fp.close()
-```
+#Developed by: P.Bharathraj
+ #Register no: 212223230031
+ import sys
+ fp=open(sys.argv[1])
+ wordcount=0
+ for i in fp:
+ words=i.split()
+ wordcount+=len(words)
+ print("Total no of words in file is",wordcount)
+ fp.close()
 ### OUTPUT:
 ![Screenshot 2024-05-16 143356](https://github.com/Hemanath08/Command--line-arguments-to-count-word/assets/151807176/235d338d-50ff-4363-80d1-e799461e0d0c)
 
